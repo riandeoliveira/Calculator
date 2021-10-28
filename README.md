@@ -19,11 +19,6 @@ Calculadora simples de seis operações matemáticas com um layout de formulári
 ## Pré-requisitos
 
 * Navegador (ex: [Google Chrome](https://www.google.com/intl/pt-BR/chrome/))
-* Descompactador de arquivos (ex: [WinRAR](https://www.win-rar.com/start.html?&L=0))
-
-## Atualizado em
-
-27 de out. de 2021
 
 ## Desenvolvido em
 
