@@ -6,7 +6,9 @@ Calculadora simples de seis operações matemáticas com um layout de formulári
 
 ## Layout
 
-![Imagem demonstrativa do projeto](demo/layout.png)
+<div align="center">
+<img src="demo/layout.png" alt="Imagem demonstrativa"></img>
+</div>
 
 ## Tecnologias utilizadas
 
