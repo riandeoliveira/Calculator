@@ -1,39 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
-    <title>Calculadora Básica</title>
-    <link rel="stylesheet" href="static/css/style.css">
-</head>
-
-<body>
-    <form id="form">
-        <h1>Calculadora Básica</h1>
-        <input autocomplete="off" id="valor1" title="Digite o primeiro valor" type="text">
-        <select id="opcoes" title="Escolha uma operação dentre as opções disponíveis">
-            <option id="opcao" title="Escolha uma operação desejada" value="">Escolha uma operação</option>
-            <option id="opcao1" title="Somar" value="1">Adição ( + )</option>
-            <option id="opcao2" title="Subtrair" value="2">Subtração ( - )</option>
-            <option id="opcao3" title="Multiplicar" value="3">Multiplicação ( * )</option>
-            <option id="opcao4" title="Dividir" value="4">Divisão ( / )</option>
-            <option id="opcao5" title="Potenciar" value="5">Potenciação ( ^ )</option>
-            <option id="opcao6" title="Porcentagem" value="6">Porcentagem ( % )</option>
-        </select>
-        <input autocomplete="off" id="valor2" title="Digite o segundo valor" type="text">
-        <i>=</i>
-        <input disabled id="resultado" title="O resultado é mostrado aqui" type="text">
-        <input id="calculador" onclick="calculo()" title="Calcule seu valor" type="button" value="Calcular" />
-        <input id="apagador" onclick="resetar()" title="Resete os valores e resultados" type="reset" value="Resetar" />
-    </form>
-    <div id="historico">
-        <p><b>Histórico de operações:</b>
-        <p>
-    </div>
-    <script src="static/js/main.js"></script>
-</body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
